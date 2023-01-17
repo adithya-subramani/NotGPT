@@ -1,0 +1,92 @@
+{
+    "intents": [
+        {
+            "tag": "google",
+            "patterns": [
+                "google",
+                "search",
+                "internet"
+            ],
+            "responses": [
+                "Redirecting to Google..."
+            ]
+        },
+        {
+            "tag": "creator",
+            "patterns": [
+                " Who made you?",
+                "Who created you?"
+            ],
+            "responses": [
+                " I was designed by Adithya Subramani R",
+                "I was programmed by Adithya Subramani R. Everyone calls him 'Daddy' for a reason ;)"
+            ]
+        },
+        {
+            "tag": "misc",
+            "patterns": [
+                " What is what",
+                ""
+            ],
+            "responses": [
+                " Sorry I cannot understand you",
+                "Come again!"
+            ]
+        },
+        {
+            "tag": "appreciate",
+            "patterns": [
+                "You are awesome",
+                "Great job"
+            ],
+            "responses": [
+                "Thank you!",
+                "Thank you!"
+            ]
+        },
+        {
+            "tag": "roast",
+            "patterns": [
+                "You are stupid",
+                "Stfu",
+                "Are you dumb on purpose"
+            ],
+            "responses": [
+                "At least I'm trying :'(",
+                "Okay",
+                "You're hurting my feelings"
+            ]
+        },
+        {
+            "tag": "end",
+            "patterns": [
+                "Bye",
+                "It was nice talking to you",
+                "Good bye"
+            ],
+            "responses": [
+                "Good bye",
+                "Thank you for your time",
+                "Tata"
+            ]
+        },
+        {
+            "tag": "code",
+            "patterns": [
+                " c++",
+                "python",
+                "java",
+                "javascript",
+                "ruby",
+                "perl",
+                "react",
+                "node",
+                "angular",
+                "sql"
+            ],
+            "responses": [
+                ".."
+            ]
+        }
+    ]
+}
